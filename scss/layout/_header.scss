@@ -1,0 +1,42 @@
+.logo{
+	background-color: $fondo-nav;
+		a{
+		display: inline;
+			img{
+			@extend %logoimg;
+			}
+		}
+		h1{
+			@extend %logoh1;
+            span{
+                @if $fondo-nav==darkgrey{
+                   color: $fondo-body; 
+                }@else{
+                    color:black
+                }
+            }
+		}	
+}
+
+#header__nav{
+	background-color: $fondo-nav;
+	color:$font-black;
+	}
+#header__nav__btnAct--pink{
+	@include bcolor($fondo-body,$font-black);
+	}	
+#header__nav__btnAct--violet{
+	@include bcolor(violet,$font-black);
+	}
+#header__nav__btnNoAct--lgrey{
+	@include bcolor($fondoBtnNoAct-lgrey,$font-black);
+	&:hover{
+		background-color: white;
+		}
+	}
+#header__nav__btnNoAct--dgrey{
+	@include bcolor($fondoBtnNoAct-dgrey,$font-white);
+	&:hover{
+		background-color: white;
+		}
+	}

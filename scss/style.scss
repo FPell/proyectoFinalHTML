@@ -1,0 +1,145 @@
+@import "base/reset";
+@import "base/typo";
+@import "components/bootstrap";
+@import "components/buttons";
+@import "utilities/extends";
+@import "utilities/function";
+@import "utilities/maps";
+@import "utilities/mixin";
+@import "utilities/variables";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/main";
+
+
+$base-font-size: 16px;
+$fondoBtnAct-pink: #f1c8cf;
+$fondoBtnAct-violet: violet;
+$fondoBtnNoAct-lgrey:lightgrey;
+$fondoBtnNoAct-dgrey:darkgrey;
+$fondoBtnSubmit-dgrey: darkgrey;
+$fondoBtnSubmit-lviolet: rgb(236, 167, 236);
+$fondoBtnSubmit-violet: violet;
+$fondoBtnSubmit-black: black;
+$fondoBtnAccor-lgrey: lightgrey;
+$fondoBtnAccor-dgrey: darkgrey;
+$fondoBtnAccor-lviolet: rgb(236, 167, 236);
+$fondoBtnAccor-violet: violet;
+$fondoBtnAccor-black: black;
+$fondoBodyAccor: rgb(255, 235, 238);
+$fondo-nav: darkgrey;
+$font-black: black;
+$font-white: white;
+$carousel-width: 100%px;
+$carousel-height: 700px;
+$carouse-padding: 20px;
+$carousel-fondo: $fondoBtnAct-pink;
+$form-padding: 20px;
+$nos-fondo-pink: $fondoBtnAct-pink;
+$nos-fondo-dgrey: darkgrey;
+$sede-fondo-pink: $fondoBtnAct-pink;
+$sede-fondo-dgrey: darkgrey;
+$vid-fondo-pink: $fondoBtnAct-pink;
+$vid-fondo-lgrey: lightgrey;
+$foot-fondo-dgrey: darkgrey;
+$imgLogo-width: 60px;
+$logoFont-size:60px;
+
+.form__fondo--pink{
+	background-color: $fondoBtnAct-pink;
+}
+.form__btn--dgrey{
+	background-color: $fondoBtnSubmit-dgrey;
+	color:$font-black;
+	border: 1px solid black;
+	&:hover{
+		background-color: $fondoBtnSubmit-black;
+		color: $font-white;
+		border: 1px solid white;
+
+	}
+}
+.form__btn--lviolet{
+	background-color: $fondoBtnSubmit-lviolet;
+	color: $font-black;
+	border: 1px solid violet;
+	&:hover{
+		background-color: $fondoBtnSubmit-violet;
+		color: $font-black;
+		border: 1px solid white;
+	}
+}
+.form__padding{
+	padding: $form-padding;
+}
+.nos__fondo{
+	padding: 20px;
+}
+.nos__fondo--pink{
+	background-color: $nos-fondo-pink;	
+}
+.nos__accorBtn--lgrey{
+	background-color: $fondoBtnAccor-lgrey;
+	&:hover{
+		background-color: $fondoBtnAccor-dgrey;
+	}
+}
+.nos__accorBody{
+	background-color: $fondoBodyAccor;
+}
+.accordion-button:not(.collapsed)::after {
+	  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button:not(.collapsed){ 
+	background-color: $fondoBtnAccor-dgrey;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	font-weight: bold;
+}
+.accordion-button:focus {
+	box-shadow: none;
+}
+.sede__fondo{
+	padding: 20px;
+}
+.sede__fondo--pink{
+	background-color: $sede-fondo-pink;
+}
+.sede__acorBtn--lgrey{
+	background-color: $fondoBtnAccor-lgrey;
+	&:hover{
+		background-color: $fondoBtnAccor-dgrey;
+	}
+}
+.video__fondo--pink{
+	background-color: $vid-fondo-pink;
+}
+.video__fondo--lgrey{
+	background-color: $vid-fondo-lgrey;
+}
+.video__padding{
+	padding: 40px;
+}
+.footer{
+	text-align: center;
+		ul li a{
+			text-decoration: none;
+			color: $font-black;
+			&:hover{
+				text-decoration: underline;
+				font-size: 105%;
+				color: $font-white;
+			}
+		}
+}
+.footer__fondo--dgrey{
+		background-color: $foot-fondo-dgrey;
+}
+ 
+
+
+
+/*comentario en css*/
+//comentario en scss .accordion-button:focus {box-shadow:
+

@@ -1,0 +1,7 @@
+.carousel--medida{
+	@extend %sizebody;
+}
+.carousel__fondo-color{
+    @include bcolor($fondo-body,$font-black);
+}
+

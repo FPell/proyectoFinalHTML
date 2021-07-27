@@ -1,0 +1,133 @@
+.logo a img {
+  width: 60px;
+  display: inline;
+  border-radius: 50%; }
+
+.logo h1 {
+  display: inline;
+  font-size: 60px; }
+
+.carousel--medida {
+  max-width: 100%;
+  max-height: 800px;
+  padding: 20px 80px; }
+
+.logo {
+  background-color: darkgrey; }
+  .logo a {
+    display: inline; }
+  .logo h1 span {
+    color: #f1c8cf; }
+
+#header__nav {
+  background-color: darkgrey;
+  color: black; }
+
+#header__nav__btnAct--pink {
+  background-color: #f1c8cf;
+  color: black; }
+
+#header__nav__btnAct--violet {
+  background-color: violet;
+  color: black; }
+
+#header__nav__btnNoAct--lgrey {
+  background-color: lightgrey;
+  color: black; }
+  #header__nav__btnNoAct--lgrey:hover {
+    background-color: white; }
+
+#header__nav__btnNoAct--dgrey {
+  background-color: darkgrey;
+  color: white; }
+  #header__nav__btnNoAct--dgrey:hover {
+    background-color: white; }
+
+.carousel__fondo-color {
+  background-color: #f1c8cf;
+  color: black; }
+
+.form__fondo--pink {
+  background-color: #f1c8cf; }
+
+.form__btn--dgrey {
+  background-color: darkgrey;
+  color: black;
+  border: 1px solid black; }
+  .form__btn--dgrey:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white; }
+
+.form__btn--lviolet {
+  background-color: #eca7ec;
+  color: black;
+  border: 1px solid violet; }
+  .form__btn--lviolet:hover {
+    background-color: violet;
+    color: black;
+    border: 1px solid white; }
+
+.form__padding {
+  padding: 20px; }
+
+.nos__fondo {
+  padding: 20px; }
+
+.nos__fondo--pink {
+  background-color: #f1c8cf; }
+
+.nos__accorBtn--lgrey {
+  background-color: lightgrey; }
+  .nos__accorBtn--lgrey:hover {
+    background-color: darkgrey; }
+
+.nos__accorBody {
+  background-color: #ffebee; }
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); }
+
+.accordion-button:not(.collapsed) {
+  background-color: darkgrey;
+  color: black;
+  text-shadow: 2px 2px 2px white;
+  font-weight: bold; }
+
+.accordion-button:focus {
+  box-shadow: none; }
+
+.sede__fondo {
+  padding: 20px; }
+
+.sede__fondo--pink {
+  background-color: #f1c8cf; }
+
+.sede__acorBtn--lgrey {
+  background-color: lightgrey; }
+  .sede__acorBtn--lgrey:hover {
+    background-color: darkgrey; }
+
+.video__fondo--pink {
+  background-color: #f1c8cf; }
+
+.video__fondo--lgrey {
+  background-color: lightgrey; }
+
+.video__padding {
+  padding: 40px; }
+
+.footer {
+  text-align: center; }
+  .footer ul li a {
+    text-decoration: none;
+    color: black; }
+    .footer ul li a:hover {
+      text-decoration: underline;
+      font-size: 105%;
+      color: white; }
+
+.footer__fondo--dgrey {
+  background-color: darkgrey; }
+
+/*comentario en css*/
